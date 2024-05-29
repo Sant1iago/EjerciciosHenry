@@ -1,0 +1,13 @@
+/* Para agregar fuentes externas de forma correcta*/
+
+@font-face {
+    font-family: "Nunito" ; /*Nombre por la cual voy a llamar a la fuente despues en el stylesheet*/
+    src: url("Fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf") format("truetype"); /* URL local y además agregamos el formato para que cualquier navegador pueda usar la tipografía*/
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: "Nunito" ; /*Nombre por la cual voy a llamar a la fuente despues en el stylesheet*/
+    src: url("Fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype"); /* URL local y además agregamos el formato para que cualquier navegador pueda usar la tipografía*/
+    font-weight: 200px;
+}

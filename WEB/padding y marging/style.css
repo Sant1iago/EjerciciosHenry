@@ -1,0 +1,35 @@
+.formulario { /*Modifica la caja de afuera*/
+    background-color: black;
+    /*El padding puede escribirse de varias formas
+    Por partes*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    /*O todo en una sola línea de código (Sentido horario aguja de reloj)*/
+    padding: 20px 20px 20px 20px;
+
+    /*Para poner un valor en todos los lados solo ponemos un solo valor*/
+    padding: 20px;
+    /*Con dos valores en el padding definimos vertical y horizontal respectivamente*/
+    padding: 20px /*20px arriba y abajo*/ 20px /*20 derecha e izquierda*/;
+
+
+}
+
+.formulario_input { /*Modifica la caja que está dentro de la caja "Formulario"*/
+    padding: 10px;
+    width: 100%; /*Normalmente se usa ese valor para celulares ocupa toda la pantalla*/
+    color: red;
+    background-color: black;
+}
+
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    width: 50%;
+}

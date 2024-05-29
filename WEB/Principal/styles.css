@@ -1,0 +1,15 @@
+p.Prueba {
+    color: red;
+}
+
+span {
+    color: blue;
+    font-family: "Nunito";
+    font-weight: 400px;
+}
+
+span2 {
+    color: green;
+    font-family: "Nunito";
+    font-weight: 200px;
+}
